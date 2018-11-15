@@ -1,0 +1,186 @@
+/* Variable text in menu */
+
+.short-text {
+    display: none;
+}
+
+@media (max-width: 1010px) {
+	.short-text {
+        display: inline-block;
+    }
+    .full-text {
+        display: none;
+    }
+}
+
+header .nav-container.primary ul .dropdown-menu {
+    background-color: #FFF;
+}
+
+/* Styling for Need Help tab image */
+
+.need_help {
+
+}
+
+
+/* Hover styling for menu */
+
+.navbar-default .primary .navbar-nav > .open > a, .navbar-default .primary .navbar-nav > .open > a:focus, .navbar-default .primary .navbar-nav > .open > a:hover {
+    color: #de3518!important;
+}
+
+.navbar-default .nav-container.primary .main-nav .dropdown a.dropdown-toggle:hover {
+    color: #de3518;
+}
+
+/* Dropdown Menu */
+
+header .nav-container ul .dropdown-menu {
+    border-top-width: 0;
+    padding: 65px 0;
+}
+
+.navbar-default .nav-container.primary .main-nav .dropdown .dropdown-menu li {
+    padding-top: 0;
+}
+
+.navbar-default .nav-container.primary .main-nav .dropdown .dropdown-menu li a {
+    font-size: 16px;
+    color: #3C2320!important;
+    line-height: 24px;
+}
+
+header .nav-container ul .dropdown-menu ul li {
+    padding: 0;
+}
+
+/* Padding for above different titles in the columns */
+
+.padding_above {
+  padding-top: 28px;
+}
+
+/* Close menu button */
+
+.close_menu img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 33px;
+    width: 33px;
+    margin-bottom: 20px;
+}
+
+/* Tab buttons in first tab */
+
+.dropdown-menu > .row.gridbase {
+    margin-left: 0!important;
+    max-width: 2000px;
+}
+
+.tab_button {
+    width: 300px;
+    display: block;
+    border: none;
+    height: 90px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #FFF;
+    background-size: cover;
+    color: #3C2320;
+    font-weight: 900;
+    font-size: 16px;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-left: 40px;
+}
+
+/* Button styling for selected tabs */
+
+.tab_button_selected {
+    width: 300px;
+    border: none;
+    height: 90px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #f6f4f1;
+    background-size: cover;
+    color: #3C2320;
+    font-weight: 900;
+    font-size: 16px;
+    background-image: url(img/arrow_xs.svg);
+    background-position: right;
+    background-size: 10px;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    padding-right: 15px;
+}
+
+.tab_button_selected .tab_button_text {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+}
+
+.navbar-default .dropdown-menu button {
+    margin-left: 0;
+    margin-top: 0;
+    max-width: 300px;
+}
+
+/* Mega nav tablet responsiveness */
+
+.tablet_column {
+    display: none;
+}
+
+.desktop_column {
+    display: block;
+}
+.tablet_column2 {
+    display: none;
+}
+.tablet_column3 {
+    display: none;
+}
+.tab2 {
+  display: none;
+}
+
+/* Column layout responsiveness */
+
+@media (max-width: 975px) {
+.tablet_column {
+    display: block;
+}
+.desktop_column {
+    display: none;
+    }
+.tablet_none {
+    display: none;
+    }
+.desktop_column2 {
+    display: none;
+    }
+.tablet_column2 {
+    display: block;
+    }
+.desktop_column3 {
+    display: none;
+    }
+.tablet_column3 {
+    display: block;
+    }
+.col-sm-3 {
+      width: 33%;
+    }
+}
