@@ -232,3 +232,10 @@ header .nav-container ul .dropdown-menu ul li {
       width: 33%;
     }
 }
+
+
+@media (max-width: 810px) {
+  .tab_button {
+    padding-left: 25px;
+  }
+}
